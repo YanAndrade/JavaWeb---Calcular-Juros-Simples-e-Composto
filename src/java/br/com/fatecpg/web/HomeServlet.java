@@ -53,7 +53,7 @@ public class HomeServlet extends HttpServlet {
             out.println("<h1>Boa Tarde</h1>");
             out.println("<h3>Integrantes do Grupo:</h3>");
             out.println("<h4>Eloisa de Oliveira Santos</h4>");
-            out.println("<h4>Esdres Victor Artoni Tosta</h4>");
+            out.println("<h4>Esdras Victor Artoni de Souza</h4>");
             out.println("<h4>Yan Matheus Iamamura Andrade</h4>");
             out.println("<br></br>");
             out.println("</center>");
