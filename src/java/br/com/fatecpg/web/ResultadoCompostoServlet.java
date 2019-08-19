@@ -58,6 +58,15 @@ public class ResultadoCompostoServlet extends HttpServlet {
             out.println("<script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js' integrity='sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1' crossorigin='anonymous'></script>");
             out.println("<center>");
             
+            out.println("<center>");
+            out.println("<br></br>");
+            out.println("<button type='button' class='btn btn-outline-primary'>");
+            out.println("<h4><a href='home.html'>Home</a></h4>");
+            out.println("</button>");
+            out.println("</center>");
+            out.println("<br></br>");
+    
+            
             taxa = (taxa/100);
             
             out.println("<table class='table'>");
@@ -94,11 +103,11 @@ public class ResultadoCompostoServlet extends HttpServlet {
             out.println("</body>");
             out.println("</table>");
             out.println("</center>");
-            out.println("<center>");
-            out.println("<button type='button' class='btn btn-outline-primary'>");
-            out.println("<h3><a href='home.html'>Home</a></h3>");
-            out.println("</button>");
-            out.println("</center>");
+            //out.println("<center>");
+            //out.println("<button>");
+            //out.println("<h3><a href='home.html'>Home</a></h3>");
+            //out.println("</button>");
+            //out.println("</center>");
     
             out.println("</body>");
             out.println("</html>");

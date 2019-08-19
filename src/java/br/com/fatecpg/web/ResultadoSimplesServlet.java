@@ -59,12 +59,14 @@ public class ResultadoSimplesServlet extends HttpServlet {
             juros = capital*taxa*tempo;
             montante = capital+juros;
             
-            out.println("<h3>Resultado do Juros Simples: " + montante + "</h3>");
+            //out.println("<h3>Resultado do Juros Simples: " + montante + "</h3>");
             out.println("<center>");
-            out.println("<br></br>");
             out.println("<button type='button' class='btn btn-outline-primary'>");
             out.println("<h4><a href='home.html'>Home</a></h4>");
             out.println("</button>");
+            out.println("<br></br>");
+            out.println("<h3>Resultado do Juros Simples: " + montante + "</h3>");
+            out.println("</center>");
     
             out.println("</body>");
             out.println("</html>");

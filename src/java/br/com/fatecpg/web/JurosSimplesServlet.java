@@ -53,7 +53,7 @@ public class JurosSimplesServlet extends HttpServlet {
                     + "<p><h3>Capital Inicial:<h3><input type = 'number' name = 'capital'> </p>"
                     + "<p><h3>Taxa:<h3> <input type='number' name='taxa'> </p>"
                     + "<p><h3>Tempo:<h3><input type='number' name='tempo'></p>"
-                    + "<button><h4>Calcular</h4></button>"
+                    + "<button type='submit' class='btn btn-outline-primary'><h4>Calcular</h4></button>"
                     + "</fieldset>" + "</form>");
             
             out.println("</center>");
